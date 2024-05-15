@@ -53,7 +53,7 @@ while running:
     #haj bobbing
 
     #makes a range from 0-30 when tick is 0 - 30 and from 29 - 1 when tick is 31 - 59
-    if tick < 31:
+    if tick < 30:
         heightrange = tick
     else:
         heightrange = 60 - tick
